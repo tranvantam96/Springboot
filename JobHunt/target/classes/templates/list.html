@@ -31,14 +31,10 @@
             <th scope="col">Website</th>
             <th scope="col">Email</th>
             <th scope="col">Address</th>
-            <th scope="col">Delete</th>
           </tr>
         </thead>
         <tbody>
-          <!-- <div th:text="${employers.name}"></div>
-          <div th:text="${employers.website}"></div>
-          <div th:text="${employers.email}"></div>
-          <div th:text="${employers.address}"></div> -->
+          
           <tr th:each="employer, iStat:${employers}">
             <th scope="row" th:text="${iStat.index} +1"></th>
             <td th:text="${employer.name}"></td>
