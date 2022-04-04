@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách Employer</title>
+</head>
+<style>
+  table{
+    border:1px solid black;
+  }
+  th{
+    border:1px solid black;
+  }
+  td{
+    border:1px solid black;
+  }
+  tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+</style>
+<body>
+  <h1>Danh sách trang tuyển dụng</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Website</th>
+            <th scope="col">Email</th>
+            <th scope="col">Address</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <div th:text="${employers.name}"></div>
+          <div th:text="${employers.website}"></div>
+          <div th:text="${employers.email}"></div>
+          <div th:text="${employers.address}"></div> -->
+          <tr th:each="employer, iStat:${employers}">
+            <th scope="row" th:text="${iStat.index} +1"></th>
+            <td th:text="${employer.name}"></td>
+            <td th:text="${employer.website}"></td>
+            <td th:text="${employer.email}"></td>
+            <td th:text="${employer.address}"></td>
+          </tr>
+         
+        </tbody>
+      </table>
+      <div class="col-sm-4">
+        <button type="button" class="btn add">
+            <i class="fa fa-plus"></i>
+            <a style="color: #646161" 
+            th:href="@{/employer/add}">Thêm</a>
+        </button>
+    </div>
+</body>
+</html>
