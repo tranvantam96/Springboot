@@ -1,22 +1,22 @@
-<b>1. List Employers
-![](1.PNG)
-2. Add Employer
-![](2.PNG)
-3. Edit Employer
-![](3.PNG)
-4. View Employer
-![](4.PNG)
-5. Add Job
-![](5.PNG)
-6. List Job + chức năng tìm kiếm theo keyword và thành phố
-![](6.PNG)
-7. View Job
-![](7.PNG)
-8. Apply Job --> tạo ra Applicant, và gửi email đến Employer
-![](8.PNG)
-9. List Applicants
-![](9.PNG)
-10. View Applicant</b>
+<b>1. List Employers<br>
+![](1.PNG)<br>
+2. Add Employer<br>
+![](2.PNG)<br>
+3. Edit Employer<br>
+![](3.PNG)<br>
+4. View Employer<br>
+![](4.PNG)<br>
+5. Add Job<br>
+![](5.PNG)<br>
+6. List Job + chức năng tìm kiếm theo keyword và thành phố<br>
+![](6.PNG)<br>
+7. View Job<br>
+![](7.PNG)<br>
+8. Apply Job --> tạo ra Applicant, và gửi email đến Employer<br>
+![](8.PNG)<br>
+9. List Applicants<br>
+![](9.PNG)<br>
+10. View Applicant</b><br>
 ![](10.PNG)
 
 
